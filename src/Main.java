@@ -106,6 +106,13 @@ public class Main {
         String name = new String(firstName);
         System.out.println(name);
 
+        int aiM[][] = {{1, 2, 3}, {4, 5, 6}};
+        for (int k = 0; k < 2; k++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print( " " + aiM[k][j]);
+            } // end of inner for
+            System.out.println(" "); // to print in next line
+        } // end of outer for
 
     }
 
